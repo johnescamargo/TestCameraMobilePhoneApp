@@ -57,7 +57,6 @@ function pic() {
     navigator.camera.getPicture(cameraCallback, onError);
 }
 
-
 function cameraCallback(imageData) {
     var image = document.getElementById('myImage');
     image.src = imageData;
